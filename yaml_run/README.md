@@ -28,6 +28,35 @@ https://github.com/QuantLet/Stochastic_processes'
 
 ```
 
+### Example:
+```r
+
+> workdir = "c:/test"
+> ## I: YAML initialization function: prepares and returns all data necesarry in the further process
+> d_init = yaml.debugger.init(workdir, show_keywords = FALSE)
+> ## II: Loads the list of Q folders. RootPath is required where the Qs are located.
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "3 Q folder(s) found:"
+[1] "ar1_process"    "random_walk"    "randomwalk_ar1"
+> ## III: Main part of the YAML debugger. Loops trough the provided Q folders and extracts YAML meta info.
+> # If errors occur, corresponding error handling is executed.
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: ar1_process"
+[1] "--------------------------------------------------------------------"
+[1] "2: random_walk"
+[1] "--------------------------------------------------------------------"
+[1] "3: randomwalk_ar1"
+[1] "--------------------------------------------------------------------"
+> ## IV: Overview of the parser results. If errors occured, the corresponding Q names and YAML errors are displayed.
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> 
+> OverView
+     Q Names          Missing Style Guide fields Descriptions stats             Keywords stats               
+[1,] "ar1_process"    ""                         "32 word(s), 157 Character(s)" "NA: 9 (standard), NA (new)" 
+[2,] "random_walk"    ""                         "17 word(s), 93 Character(s)"  "NA: 9 (standard), NA (new)" 
+[3,] "randomwalk_ar1" ""                         "58 word(s), 273 Character(s)" "NA: 12 (standard), NA (new)"
+
+```
 
 ### R Code:
 ```r
