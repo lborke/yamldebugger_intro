@@ -1,0 +1,17 @@
+
+Name of Quantlet: yaml_run
+
+Published in: 'yamldebugger: YAML parser debugger according to the QuantNet style guide. R package version 0.5.0.'
+
+Description: 'Shows how to run the yamldebugger package with the example of three existing Quantlets.
+The interaction of the four main functions and the different aspects of the resulting overview data structure are explained.'
+
+Keywords: data mining, optimization, test, standardization, preprocessing, summary, yaml, parser, debugger, quantnet, style guide, package, github
+
+See also: yaml_start
+
+Author: Lukas Borke
+
+Submitted: 28.10.2016 by Lukas Borke
+
+Example: 'yamldebugger application on the example of three Quantlets in https://github.com/QuantLet/Stochastic_processes'

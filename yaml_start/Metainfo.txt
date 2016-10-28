@@ -1,0 +1,17 @@
+
+Name of Quantlet: yaml_start
+
+Published in: 'yamldebugger: YAML parser debugger according to the QuantNet style guide. R package version 0.5.0.'
+
+Description: 'Shows the first steps how to install the yamldebugger package via devtools::install_github
+and how to start the package and the help pages.'
+
+Keywords: data mining, optimization, test, standardization, preprocessing, yaml, parser, debugger, quantnet, style guide, package, github
+
+See also: yaml_run
+
+Author: Lukas Borke
+
+Submitted: 28.10.2016 by Lukas Borke
+
+Example: Screenshot from the help pages of the yamldebugger package

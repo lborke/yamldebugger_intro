@@ -1,0 +1,22 @@
+
+Name of Quantlet: random_walk
+
+Published in: Stochastic processes
+
+Description: 'Simulates the path of a random walk over 50 time points. Epsilon terms/innovations are normally distributed - N(0,1).'
+
+Keywords: normal-distribution, plot, random, random-number-generation, random-walk, simulation, standard-normal, stochastic-process, time-series
+
+See also: ar1_process, randomwalk_ar1
+
+Author: Lukas Borke
+
+Submitted: Fri, May 29 2015 by Lukas Borke
+
+Input:
+- N: number of simulated time points
+- StartVal: Starting value for X_0
+
+Example:
+- 1: Realized path number 1
+- 2: Realized path number 2
