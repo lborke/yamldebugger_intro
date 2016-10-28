@@ -31,9 +31,9 @@ https://github.com/QuantLet/Stochastic_processes'
 ### Example:
 ```r
 
-## load the package every time you want to use 'yamldebugger'
-library(yamldebugger)
-
+> ## load the package every time you want to use 'yamldebugger'
+> library(yamldebugger)
+>
 > workdir = "c:/test"
 > ## I: YAML initialization function: prepares and returns all data necesarry in the further process
 > d_init = yaml.debugger.init(workdir, show_keywords = FALSE)
