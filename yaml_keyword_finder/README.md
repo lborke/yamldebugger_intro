@@ -29,6 +29,29 @@ list with the keywords c("text-mining", "data-mining", "black-scholes", "distrib
 
 ```
 
+### Example:
+```r
+
+> findAssocs(DTM, c("text-mining", "data-mining", "black-scholes", "distribution"), corlimit = c(0.3, 0.4, 0.5, 0.2) )
+$`text-mining`
+   data-adjustment data-visualization                lda 
+              1.00               0.71               0.50 
+
+$`data-mining`
+data-adjustment   preprocessing 
+           0.71            0.41 
+
+$`black-scholes`
+   option-price european-option            call          option 
+           0.86            0.79            0.77            0.69 
+
+$distribution
+                cdf              normal                 pdf              cauchy             density normal-distribution 
+               0.39                0.34                0.33                0.28                0.24                0.23 
+             stable                 edf 
+               0.22                0.21
+
+```
 
 ### R Code:
 ```r
