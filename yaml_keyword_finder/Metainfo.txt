@@ -1,0 +1,19 @@
+
+Name of Quantlet: yaml_keyword_finder
+
+Published in: 'yamldebugger: YAML parser debugger according to the QuantNet style guide. R package version 0.5.0.'
+
+Description: 'Finds associations between a possible keyword and the document-term matrix DTM which is extracted
+from the keywords in the YAML meta info in Quantlets. This might help the user to find some correlated existing keywords from the Quantlets
+when the user is unsure which keywords should be provided for the meta info of a new Quantlet.'
+
+Keywords: data mining, correlation, optimization, test, standardization, preprocessing, yaml, parser, debugger, quantnet, style guide, package, github
+
+See also: yaml_TDM_CorrPlot, yaml_keyword_frequency, yaml_wordcloud
+
+Author: Lukas Borke
+
+Submitted: 29.10.2016 by Lukas Borke
+
+Example: 'Code example and output demonstrating how to find "similar" keywords for the given term list with the keywords
+c("text-mining", "data-mining", "black-scholes", "distribution")'

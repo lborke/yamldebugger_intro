@@ -1,0 +1,20 @@
+
+Name of Quantlet: yaml_wordcloud
+
+Published in: 'yamldebugger: YAML parser debugger according to the QuantNet style guide. R package version 0.5.0.'
+
+Description: 'Plots the wordcloud of the keywords in QuantNet.
+The keywords are taken from document-term matrix DTM which is extracted from the keywords in the YAML meta info in Quantlets.
+This might help the user to get an overview of the relevance and frequency of the existing keywords in QuantNet.'
+
+Keywords: 'data mining, optimization, test, standardization, preprocessing, yaml, parser, debugger, quantnet, style guide, package, github,
+visualization, descriptive-statistics, wordcloud'
+
+See also: yaml_TDM_CorrPlot, yaml_keyword_finder, yaml_keyword_frequency
+
+Author: Lukas Borke
+
+Submitted: 29.10.2016 by Lukas Borke
+
+Example: Plots of keyword wordclouds in different aspects and with different parameters (frequency, colors etc.)
+

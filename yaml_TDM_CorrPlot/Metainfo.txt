@@ -1,0 +1,23 @@
+
+Name of Quantlet: yaml_TDM_CorrPlot
+
+Published in: 'yamldebugger: YAML parser debugger according to the QuantNet style guide. R package version 0.5.0.'
+
+Description: 'Visualizes correlations between terms (keywords) of a document-term matrix via Rgraphviz ("http://bioconductor.org/biocLite.R").
+Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data.
+Bioconductor uses the R statistical programming language, and is open source and open development.
+The correlation plots use the most frequent words (above the given frequency bound "lowfreq") from the DTM as the nodes
+and include the links among words with a correlation above the given threshold "corThreshold".
+The words/keywords are taken from document-term matrix DTM which is extracted from the keywords in the YAML meta info in Quantlets.
+This might help the user to get an overview of the relevance, connectedness, correlation and frequency of the existing keywords in QuantNet.'
+
+Keywords: 'data mining, optimization, test, standardization, preprocessing, yaml, parser, debugger, quantnet, style guide, package, github,
+visualization, descriptive-statistics, correlation, graphical representation, bioconductor'
+
+See also: yaml_wordcloud, yaml_keyword_finder, yaml_keyword_frequency
+
+Author: Lukas Borke
+
+Submitted: 29.10.2016 by Lukas Borke
+
+Example: Correlation graphs of keywords in different aspects and with different parameters (lowfreq, corThreshold, weighting)
